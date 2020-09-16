@@ -32,6 +32,8 @@ set noexpandtab
 set number relativenumber
 set hidden
 
+let $FZF_DEFAULT_COMMAND = 'rg --files --hidden'
+
 """""""""""""""""""""""""""""""
 "       Code Completion       "
 """""""""""""""""""""""""""""""

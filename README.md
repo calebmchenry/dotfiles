@@ -35,3 +35,9 @@
 ## Font
 1. `brew tap caskroom/fonts`
 2. `$ brew cask install font-hack-nerd-font`
+
+## Rust
+
+```sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
