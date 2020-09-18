@@ -34,7 +34,7 @@
 
 ## Font
 1. `brew tap caskroom/fonts`
-2. `$ brew cask install font-hack-nerd-font`
+2. `brew cask install font-fira-code`
 
 ## Rust
 
