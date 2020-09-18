@@ -34,6 +34,8 @@ set hidden
 
 let $FZF_DEFAULT_COMMAND = 'rg --files --hidden'
 
+set splitbelow splitright
+
 """""""""""""""""""""""""""""""
 "       Code Completion       "
 """""""""""""""""""""""""""""""
