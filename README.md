@@ -44,3 +44,11 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```sh
 rustup component add rls rust-analysis rust-src
 ```
+
+## Terminal Colors
+* red - #ff3b30
+* green - #4cd964
+* yellow - #ffcc00
+* blue - #006fff
+* magenta - #fb4dca
+* cyan - #5ad3fa
