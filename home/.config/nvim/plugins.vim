@@ -25,5 +25,3 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'airblade/vim-rooter'
 
 call plug#end()
-
-let $FZF_DEFAULT_COMMAND = 'rg --files --hidden'
