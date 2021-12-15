@@ -14,8 +14,11 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 PATH=~/.local/bin:$PATH
 PATH="/Users/calebmchenry/.deno/bin:$PATH"
 
+# Go
+export GOPATH=$HOME/go
+
 # Haskell
-[ -f "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env" ] && source "${GHCUP_INSTALL_BASE_PREFIX:=$HOME}/.ghcup/env"
+[ -f "/Users/mchenry/.ghcup/env" ] && source "/Users/mchenry/.ghcup/env" # ghcup-env
 
 # Enable vi mode
 bindkey -v
