@@ -1,5 +1,85 @@
 {
-  "editor.fontSize": 16,
+	"window.newWindowDimensions": "inherit",
   "editor.tabSize": 2,
+  "editor.fontSize": 18,
   "editor.renderWhitespace": "all",
+	"editor.lineNumbers": "relative",
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": true,
+	"editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+	"editor.suggest.preview": true,
+
+  "terminal.integrated.fontFamily": "Fira Code",
+	"terminal.integrated.profiles.osx":{
+    "zsh": {
+      "path": "zsh",
+      "args": [
+        "-l"
+      ]
+    }
+  },
+
+	// Theme
+  "window.autoDetectColorScheme":true,
+  "workbench.preferredLightColorTheme": "Default Light+",
+  "workbench.preferredDarkColorTheme": "Default Dark+",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+
+	// vim
+  "vim.leader": "<space>",
+  "vim.incsearch": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "r"],
+      "after": [],
+      "commands": [
+        "editor.action.rename"
+      ]
+    },
+    {
+      "before": ["<C-r>"],
+      "after": [],
+      "commands": [
+        "workbench.action.openRecent"
+      ]
+    },
+    {
+      "before": ["]", "d"],
+      "after": [],
+      "commands": [
+        "editor.action.marker.nextInFiles"
+      ]
+    },
+    {
+      "before": ["[", "d"],
+      "after": [],
+      "commands": [
+        "editor.action.marker.prevInFiles"
+      ]
+    },
+    {
+      "before": ["g", "d"],
+      "after": [],
+      "commands": [
+        "editor.action.revealDefinition"
+      ]
+    },
+    {
+      "before": ["g", "i"],
+      "after": [],
+      "commands": [
+        "editor.action.goToImplementation"
+      ]
+    },
+    {
+      "before": ["g", "r"],
+      "after": [],
+      "commands": [
+        "editor.action.goToReferences"
+      ]
+    }
+  ],
 }
